@@ -7,6 +7,7 @@ require 'pry'
 
 #binding.pry
 def gross_for_director(director_data)
+  movie_index = 0
   
 end
 

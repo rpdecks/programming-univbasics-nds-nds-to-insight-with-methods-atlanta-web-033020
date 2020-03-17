@@ -9,8 +9,8 @@ require 'pry'
 def gross_for_director(director_data)
   gross = 0
   movie_index = 0
-  while movie_index < nds[director_index][:movies].length do
-    gross = += nds[director_index][:movies][movie_index][:worldwide_gross]
+  while movie_index < nds[director_data][:movies].length do
+    gross = += nds[director_data][:movies][movie_index][:worldwide_gross]
     movie_index += 1
   end
 end
@@ -21,6 +21,7 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   result = {}
+  
   nil
 end
 

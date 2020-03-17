@@ -10,7 +10,8 @@ def gross_for_director(director_data)
   gross = 0
   movie_index = 0
   while movie_index < nds[director_index][:movies].length do
-    
+    gross = += nds[director_index][:movies][movie_index][:worldwide_gross]
+  end
 end
 
 # Write a method that, given an NDS creates a new Hash

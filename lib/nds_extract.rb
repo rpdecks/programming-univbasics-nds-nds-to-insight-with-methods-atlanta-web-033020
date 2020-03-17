@@ -7,6 +7,7 @@ require 'pry'
 
 #binding.pry
 def gross_for_director(director_data)
+  gross = 0
   movie_index = 0
   while movie_index < nds[director_index][:movies].length do
     

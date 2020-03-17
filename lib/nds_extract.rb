@@ -8,7 +8,8 @@ require 'pry'
 #binding.pry
 def gross_for_director(director_data)
   movie_index = 0
-  while movie_index < 
+  while movie_index < nds[director_index][:movies].length do
+    
 end
 
 # Write a method that, given an NDS creates a new Hash
